@@ -1,0 +1,40 @@
+.container {
+  /*width: 100%;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+#volume-icon {
+  margin-right: 0;
+}
+.slider-container {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+}
+
+.line {
+  width: 200px;
+  height: 3px;
+  background: black;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: black;
+  border-radius: 50%;
+}
+
+.volume-icon {
+  height: 40px;
+  width: 40px;
+  fill: black;
+}
